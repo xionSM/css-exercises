@@ -20,6 +20,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.top {
+  display: flex;
+}
+
+.header {
+  flex: 1;
+  align-self: center;
+  padding-left: 20px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-left: 61px;
+}
+
+.text {
+  margin-left: 62px;
 }
 
 .icon {
@@ -46,6 +70,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 
 button {
