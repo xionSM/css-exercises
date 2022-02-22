@@ -3,8 +3,8 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
-  font-size: 14px;
+.para.small-para {
+  font-size: 12px;
 }
 
 .para {
@@ -14,12 +14,13 @@
 #confirm-button {
   background: green;
   color: white;
+  font-size: 20px;
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+#cancel-button {
+  background-color: #ffc0cb;
+  color: black;
   font-size: 20px;
 }
 
@@ -30,6 +31,5 @@
 
 div.text {
   color: green;
-  font-size: 22px;
-  
+  font-size: 28px;
 }
